@@ -1,114 +1,38 @@
-<h1 align="center">Curso de Adonis.js</h1>
+<h1 align="center">Projeto diário</h1>
 
 ## Descrição do Projeto
 <p align="center">
+Desenvolvimento de aplicação full-stack para um diário com registro de momentos e comentários.
 
-Adonis.js é um framework Node.js, para desenvolver aplicações web. Ele facilita muito a programação de apps, pois possui uma estrutura similar ao Laravel.
-Utiliza arquitetura MVC e possui vários recursos, como CLI, File upload simples, validações e etc. E também pacotes externos de ORM, Autenticação e autorização.
+Utilizando:
+- Adonis.js
+- Angular
 
-Nessa aplicação foi criada uma API Restful, com um CRUD e relacionamento entre as entidades.
 </p>
+<p>Apresentação do projeto do curso: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=22</p>
+<p>Setup da API: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=23</p>
+<p>Estruturando o projeto: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=24</p>
+<p>CSS nos componentes de layout: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=25</p>
+<p>Página de formulário: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=26</p>
+<p>Criando interfaces e configurando módulos: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=27</p>
+<p>Validação de formulário com Reactive Forms: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=28</p>
+<p>Inserindo dados no sistema: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=29</p>
+<p>Iniciando componente de mensagem: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=30</p>
+<p>Finalizando sistema de mensagens: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=31</p>
+<p>Resgatando dados do banco: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=32</p>
+<p>Finalizando a home: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=33</p>
+<p>Busca de dados no Angular: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=34</p>
+<p>Página individual de momento: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=35</p>
+<p>CSS página de Momentos: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=36</p>
+<p>Excluindo registro: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=37</p>
+<p>Criando tela de edição: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=38</p>
+<p>Finalizando edição de registro: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=39</p>
+<p>Formulário de comentários: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=40</p>
+<p>Inserindo comentários: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=41</p>
+<p>Conclusão: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=42</p>
 
 <hr>
 
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </div>
-
-<br />
-
-## Passo a passo
-# Iniciando os trabalhos com o Adonis.JS
-- Iniciar o projeto com o comando: npm init adonis-ts-app@latest .
-  - api
-  - escolher o nome do projeto
-  - true
-  - true
-
-# Criando uma collection no Postman
-- Inicar o servidor com o comando: node ace serve --watch
-- Configurar a rota inicial no Postman
-
-# Instalando um BD
-- Instalar o lucid: npm i @adonisjs/lucid
-Lucid é o SQL ORM oficial para AdonisJS. Ele vem com um Active Record ORM, Query Builder, Migrations, Seeds e Factories
-- Configurar o lucid: node ace configure @adonisjs/lucid
-  - SQLite
-  - In the terminal
-
-# Configurando o CORS
-- Liberar o acesso da API: ir na pasta config > cors.ts e alterar:
-  - enabled: false, por:
-  - enabled: (request) => request.url().startsWith('/api'),
-- Configurar o prefixo das URLs: ir na pasta start > routes.ts e alterar:
-  - Route.get('/', async () => {
-      return { hello: 'world' }
-    }), por
-  - Route.group(() => {
-      Route.get('/', async () => {
-        return { hello: 'world' }
-      })
-    }).prefix('/api')
-
-# Models na estrutura MVC
-- node ace make:model Moment -m
-(-m é para criar a migration)
-- Configurar a model criada na pasta app > Models > Moments.ts
-
-# Migration
-- Reflita a estrutura adicionada na model na migration
-- Rodar a migration: node ace migration:run
-
-# Visualizando as Migrations
-- O banco de dados foi gerado na pasta tmp. Para visualizar podemos instalar a extenção SQLite Viewer
-
-# Controller (Vai ficar as ações e as regras de negócio)
-- node ace make:controller Moment
-- Ir na Controller criada na pasta app > Controllers e desenvolver a regra de negocio
-- Ir no arquivo router e configurar a rota desejada
-- Visualizar as rotas cadastradas: node ace list:routes
-- Adicionar a rota no Postman
-
-# Simplificando rotas
-- No arquivo de rotas, ao invés de colocar por exemplo post, eu colocar resource, tiramos os nomes das funções da rota e deixamos apenas a controller e ao executar o comando de listar as rotas, ganhamos as outras rotas complementares da aplicação:
-Route.resource('/moments', 'MomentsController')
-- O comando acima traz também rotas que não são de API, como a create, então podemos usar outro comando para trazer somente as rotas de API:
-Route.resource('/moments', 'MomentsController').apiOnly()
-
-# Inserindo dados no BD
-- Descomentar a linha 1 da controller criada, que contem todas as informações da requisição
-- Importar a Model e desenvolver a função no controller com a resposta
-- Para visualizar no Postman, no campo body, marcar raw e Json 
-
-# Upload de imagem
-- Instalar o pacote: npm i uuid
-- Importar o uuid na controller - versão 4: import { v4  as uuid4 } from 'uuid' 
-- Importar Aplication: import Application from '@ioc:Adonis/Core/Application'
-Ajuda a colocar a imagem no lugar que queremos
-- Após desenvolver a controller com a image, para visualizar no Postman, não poderá ser mais em JSON, então selecionar o form-data e preencher os campos
-
-# Buscando todos os registros
-
-
-# Buscando por id
-
-
-# Removendo registros
-
-
-# Atualizando um registro
-
-
-# Criando o model Comment
-
-
-# Efetuando a relações
-
-
-# Criando um controller
-
-
-# Criando o método store
-
-
-# Exibindo os comentários junto com os momentos
