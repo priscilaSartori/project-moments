@@ -1,12 +1,9 @@
-<h1 align="center">Projeto diário</h1>
+<h1 align="center">Curso Adonis.js</h1>
+<h2>Matheus Battisti</h2>
 
 ## Descrição do Projeto
 <p align="center">
-Desenvolvimento de aplicação full-stack para um diário com registro de momentos e comentários.
-
-Utilizando:
-- Adonis.js
-- Angular
+Desenvolvimento de API para registro de momentos e comentários.
 
 </p>
 <p>Apresentação do projeto do curso: https://www.youtube.com/watch?v=xTCBaGeYTck&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=22</p>
